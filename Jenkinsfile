@@ -12,7 +12,7 @@ node {
        
         stage ('Job3') {
             echo "I'm job3"
-            sh "echo 'hello.sh'"
+            
         }
     } catch (err) {
         currentBuild.result = 'FAILED'
